@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "webworker",
+            "es5",
+            "scripthost"
+        ],
+        "outDir": "js",
+        "sourceMap": true,
+        "target": "es5",
+        "watch": true
+    },
+    "include": [
+        "ts/**/*.ts"
+    ]
+}

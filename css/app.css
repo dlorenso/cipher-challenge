@@ -1,0 +1,18 @@
+.textblock {
+	font-size: 10px;
+	height: 300px;
+}
+.infobox {
+	background: #FCFCFC;
+	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+	padding: 8px 0;
+}
+.tiny-table td {
+	font-size: 9px;
+}
+h4 {
+	color: rgba(0, 25, 83, 0.81);
+	font-size: 20px;
+	margin: 16px 0;
+}
