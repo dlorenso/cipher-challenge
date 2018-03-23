@@ -15,7 +15,7 @@ You are to provide a project that decrypts `encrypted.txt`, using `plain.txt` as
 contains the literary works of William Shakespeare. There are various language patterns to create a 
 computational algorithm for various types of analysis.
 
-####Please note the following:
+#### Please note the following:
 
 - You can use a 1 for 1 type of algorithm. Which means, an uppercase character is the same as a lowercase character.
 - Punctuation is punctuation, there is no decryption needed on these characters.
@@ -24,14 +24,14 @@ computational algorithm for various types of analysis.
 - There are no extra symbols used for the cipher.
 - You may keep or remove the Project Gutenberg text in plain.txt . It has very little impact on the result.
 
-####Please provide the following in your project:
+#### Please provide the following in your project:
 
 1. The decrypted output of encrypted.txt in a plain text file.
 2. A project that contains the code you used to encrypt the file (how you structure your project will have an impact on the challenge as well).
 3. Note: A brute force solution will not suffice. Take into account that, like the Germans in WWII, we would modify the key at a moment's notice.
 4. Please provide a solution that shows how you derived your cipher key.
 
-####Impress us with:
+#### Impress us with:
 
 1. A decrypted output of encrypted_hard.txt .
 2. A well documented project that provides various best practices.
