@@ -1,5 +1,7 @@
 /**
- * Copyright (C) 2018 D. Dante Lorenso <dante@lorenso.com> - All Rights Reserved
+ * Copyright (c) 2018 D. Dante Lorenso <dante@lorenso.com>.  All Rights Reserved.
+ * This source file is subject to the MIT license that is bundled with this package
+ * in the file LICENSE.txt.  It is also available at: https://opensource.org/licenses/MIT
  *
  * The app logic is just some glue for the UI that is based on crude VueJS.
  */

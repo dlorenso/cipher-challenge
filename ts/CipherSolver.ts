@@ -1,8 +1,7 @@
 /**
- * Copyright (c) 2018 D. Dante Lorenso.  All Rights Reserved.
- * This source file is subject to the new BSD license that is bundled with this package in the
- * file LICENSE.txt.  It is also available through the world-wide web at this URL:
- * http://www.opensource.org/licenses/bsd-license.php
+ * Copyright (c) 2018 D. Dante Lorenso <dante@lorenso.com>.  All Rights Reserved.
+ * This source file is subject to the MIT license that is bundled with this package
+ * in the file LICENSE.txt.  It is also available at: https://opensource.org/licenses/MIT
  *
  * Dante's Cipher Solver is based on work by several online references including the following:
  *
@@ -13,21 +12,23 @@
  * https://en.wikipedia.org/wiki/Hill_climbing
  * https://repository.cardiffmet.ac.uk/bitstream/handle/10369/8628/Brown%2C%20Ryan%20James.pdf
  *
- * In numerical analysis, hill climbing is a mathematical optimization technique which belongs to the family of local search. It
- * is an iterative algorithm that starts with an arbitrary solution to a problem, then attempts to find a better solution by
- * incrementally changing a single element of the solution. If the change produces a better solution, an incremental change
- * is made to the new solution, repeating until no further improvements can be found. ...
+ * In numerical analysis, hill climbing is a mathematical optimization technique which belongs to the
+ * family of local search. It is an iterative algorithm that starts with an arbitrary solution to a
+ * problem, then attempts to find a better solution by incrementally changing a single element of
+ * the solution. If the change produces a better solution, an incremental change is made to the new
+ * solution, repeating until no further improvements can be found. ...
  *
- * We implement Hill Climbing to find the best Cipher Key that will decode the Cipher Text such that the decoded text will yield
- * the "best" fitness score.
+ * We implement Hill Climbing to find the best Cipher Key that will decode the Cipher Text such that
+ * the decoded text will yield the "best" fitness score.
  *
- * Hill climbing achieves optimal solutions in convex problems – otherwise it will find only local optima (solutions that cannot
- * be improved by considering a neighbouring configuration), which are not necessarily the best possible solution (the global
- * optimum) out of all possible solutions (the search space). Examples of algorithms that solve convex problems by hill-climbing
- * include the simplex algorithm for linear programming and binary search.[1]:253 To attempt overcoming being stuck in local
- * optima, one could use restarts (i.e. repeated local search), or more complex schemes based on iterations (like iterated local
- * search), or on memory (like reactive search optimization and tabu search), or on memory-less stochastic modifications (like
- * simulated annealing).
+ * Hill climbing achieves optimal solutions in convex problems – otherwise it will find only local
+ * optima (solutions that cannot be improved by considering a neighbouring configuration), which are
+ * not necessarily the best possible solution (the global optimum) out of all possible solutions (the
+ * search space). Examples of algorithms that solve convex problems by hill-climbing include the
+ * simplex algorithm for linear programming and binary search.[1]:253 To attempt overcoming being
+ * stuck in local optima, one could use restarts (i.e. repeated local search), or more complex
+ * schemes based on iterations (like iterated local search), or on memory (like reactive search
+ * optimization and tabu search), or on memory-less stochastic modifications (like simulated annealing).
  */
 class CipherSolver {
     // results

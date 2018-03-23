@@ -1,16 +1,18 @@
 /**
- * Copyright (c) 2018 D. Dante Lorenso.  All Rights Reserved.
- * This source file is subject to the new BSD license that is bundled with this package in the
- * file LICENSE.txt.  It is also available through the world-wide web at this URL:
- * http://www.opensource.org/licenses/bsd-license.php
+ * Copyright (c) 2018 D. Dante Lorenso <dante@lorenso.com>.  All Rights Reserved.
+ * This source file is subject to the MIT license that is bundled with this package
+ * in the file LICENSE.txt.  It is also available at: https://opensource.org/licenses/MIT
  *
- * Cipher Key is an array of the letters of the alphabet represented as an integer array.  We map the letters A ... Z on to 0 ... 25 so that
- * our quadgram dictionary lookups and text decoding can be optimized for speed.  By using integer values, we also discard concerns for
- * character case sensitivity in our cipher key text.
+ * Cipher Key is an array of the letters of the alphabet represented as an integer array.  We map the
+ * letters A ... Z on to 0 ... 25 so that our quadgram dictionary lookups and text decoding can be
+ * optimized for speed.  By using integer values, we also discard concerns for character case
+ * sensitivity in our cipher key text.
  *
- * We allow the 'key' to be exposed as a public variable to avoid cost in wrapping the array lookups in setter/getter function calls.  Again,
- * we are *really* going for speed here.  As a rule, the 'key' is readable from outside this class, but it should not be written from outside
- * the class.  Only the swap() and shuffle() methods will be used to modify the order of the cipher key characters.
+ * We allow the 'key' to be exposed as a public variable to avoid cost in wrapping the array
+ * lookups in setter/getter function calls.  Again, we are *really* going for speed here.  As
+ * a rule, the 'key' is readable from outside this class, but it should not be written from
+ * outside the class.  Only the swap() and shuffle() methods will be used to modify the order
+ * of the cipher key characters.
  */
 class CipherKey {
 

@@ -1,9 +1,11 @@
 /**
- * Copyright (C) 2018 D. Dante Lorenso <dante@lorenso.com> - All Rights Reserved
+ * Copyright (c) 2018 D. Dante Lorenso <dante@lorenso.com>.  All Rights Reserved.
+ * This source file is subject to the MIT license that is bundled with this package
+ * in the file LICENSE.txt.  It is also available at: https://opensource.org/licenses/MIT
  *
- * The worker process receives a 'start' message and will solve the cryptogram (mono-alphabetic substitution cipher) by finding a
- * best-fit cipher key.  The Cipher Solver will fire "events" during stages of the local search process to update the UI and provide
- * feedback about the solving status.
+ * The worker process receives a 'start' message and will solve the cryptogram (mono-alphabetic
+ * substitution cipher) by finding a best-fit cipher key.  The Cipher Solver will fire "events" during
+ * stages of the local search process to update the UI and provide feedback about the solving status.
  */
 //
 
