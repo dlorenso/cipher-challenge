@@ -50,7 +50,7 @@ Please note: that the above are not requirements, but will help us determine you
 	- `output/encrypted-decoded.txt`
 	- `output/encrypted_hard-decoded.txt`
 
-3. This project was written using the VueJS, Axios, Bootstrap 4, and Font Awesome 5.  All of these libraries and 
+3. This project was written using VueJS, Axios, Bootstrap 4, and Font Awesome 5.  All of these libraries and 
 stylesheets have been referenced using external CDN urls.  You will need to have an internet connection in order
 to test this code.
 

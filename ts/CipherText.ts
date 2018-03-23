@@ -1,5 +1,8 @@
 /**
- * Copyright (C) 2018 D. Dante Lorenso <dante@lorenso.com> - All Rights Reserved
+ * Copyright (c) 2018 D. Dante Lorenso.  All Rights Reserved.
+ * This source file is subject to the new BSD license that is bundled with this package in the
+ * file LICENSE.txt.  It is also available through the world-wide web at this URL:
+ * http://www.opensource.org/licenses/bsd-license.php
  *
  * Cipher Text will parse the original cipher text into a 'cipher' array that maps a-z and A-Z characters onto 0 .. 25 integer values
  * and tracks the original text case and non-alpha characters in the 'control' array.

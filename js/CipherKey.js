@@ -1,5 +1,8 @@
 /**
- * Copyright (C) 2018 D. Dante Lorenso <dante@lorenso.com> - All Rights Reserved
+ * Copyright (c) 2018 D. Dante Lorenso.  All Rights Reserved.
+ * This source file is subject to the new BSD license that is bundled with this package in the
+ * file LICENSE.txt.  It is also available through the world-wide web at this URL:
+ * http://www.opensource.org/licenses/bsd-license.php
  *
  * Cipher Key is an array of the letters of the alphabet represented as an integer array.  We map the letters A ... Z on to 0 ... 25 so that
  * our quadgram dictionary lookups and text decoding can be optimized for speed.  By using integer values, we also discard concerns for

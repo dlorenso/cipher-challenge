@@ -1,5 +1,8 @@
 /**
- * Copyright (C) 2018 D. Dante Lorenso <dante@lorenso.com> - All Rights Reserved
+ * Copyright (c) 2018 D. Dante Lorenso.  All Rights Reserved.
+ * This source file is subject to the new BSD license that is bundled with this package in the
+ * file LICENSE.txt.  It is also available through the world-wide web at this URL:
+ * http://www.opensource.org/licenses/bsd-license.php
  *
  * Quick utilty class to aid tracking time.
  *
